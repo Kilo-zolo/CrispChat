@@ -1,5 +1,7 @@
 # CrispChat - A Python-Based Multi-Connection Chat Application
 
+**NOTE: WORK IN PROGRESS**
+
 CrispChat is a real-time chat application that allows multiple users to connect and communicate with each other. Built using Python, it leverages sockets and the select module to handle multiple connections efficiently. The application consists of two main components: the client and the server.
 
 ## Features
