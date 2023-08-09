@@ -17,7 +17,15 @@ The client-side script that allows users to connect to the server, set their use
 The server-side script that listens for incoming connections, manages connected clients, and relays messages between them.
 
 ## Installation
-1. Clone the Repository:
+1. **Clone the Repository:**
 ``` git clone https://github.com/username/CrispChat.git ```
-2. Navigate to the Project Directory:
-``` cd CrispChat ```
+2. **Navigate to the Project Directory:**
+``` cd Crisp ```
+
+## Usage
+1. **Start the Server:**
+``` python server.py ```
+2. **Start the Client:**
+``` python client.py ```
+3. **Enter Username**
+4. **Start Chatting**
