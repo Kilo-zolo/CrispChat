@@ -23,6 +23,8 @@ The server-side script that listens for incoming connections, manages connected 
 ``` git clone https://github.com/username/CrispChat.git ```
 2. **Navigate to the Project Directory:**
 ``` cd Crisp ```
+3. **Add local Machine IP and PORT of your choice to .env file**
+```IP = {} PORT = {} ```
 
 ## Usage
 1. **Start the Server:**

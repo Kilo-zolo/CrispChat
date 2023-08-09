@@ -1,11 +1,18 @@
 import socket
-import select
 import errno
 import sys
+from dotenv import load_dotenv
+import os
+
+# Load the .env file
+load_dotenv()
+
+# Get the values
+IP = os.getenv('IP')
+PORT = int(os.getenv('PORT')) 
 
 HEADER_LENGTH = 10
-IP = "127.0.0.1"
-PORT = 1234
+
 
 my_username = input("Username: ")
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

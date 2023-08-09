@@ -2,7 +2,7 @@ import socket
 import select
 
 HEADER = 10
-IP = "0.0.0.0"
+IP = "127.0.0.1"
 PORT = 8080
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
